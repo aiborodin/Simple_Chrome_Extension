@@ -1,0 +1,14 @@
+{
+  "name": "Скачать с Детского Радио",
+  "version": "1.0",
+  "description": "Расширение позволяет скачать аудио файл по ссылке сайта Детского радио - deti.fm",
+  "permissions": ["activeTab", "declarativeContent", "storage", "downloads"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
